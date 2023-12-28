@@ -69,7 +69,8 @@ https://sing-box-subscribe.vercel.app/config/https:/mareep.netlify.app/sub/merge
 ## 致谢
 - [Alvin9999](https://github.com/Alvin9999/pac2/tree/master)
 - [sing-box-subscribe](https://github.com/Toperlock/sing-box-subscribe)
-
+区域设置参考:
+- [chromegopacs](https://github.com/markbang/chromegopacs)
 
 
 
