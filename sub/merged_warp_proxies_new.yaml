@@ -43,6 +43,219 @@ proxies:
   - 1.1.1.1
   - 8.8.8.8
   dialer-proxy: WARP前置节点
+- name: United States_hysteria_01
+  type: hysteria
+  server: 167.160.90.251
+  port: 48089
+  auth-str: dongtaiwang.com
+  alpn:
+  - h3
+  protocol: udp
+  up: 11 Mbps
+  down: 55 Mbps
+  skip-cert-verify: true
+- name: United States_hysteria_02
+  type: hysteria
+  server: 108.181.22.239
+  port: 41146
+  auth-str: dongtaiwang.com
+  alpn:
+  - h3
+  protocol: udp
+  up: 11 Mbps
+  down: 55 Mbps
+  skip-cert-verify: true
+- name: United States_hysteria_11
+  type: hysteria
+  server: 108.181.22.213
+  port: 52284
+  auth-str: dongtaiwang.com
+  alpn:
+  - h3
+  protocol: udp
+  up: 11 Mbps
+  down: 55 Mbps
+  skip-cert-verify: true
+- name: United States_hysteria_21
+  type: hysteria
+  server: 108.181.22.155
+  port: 19721
+  auth-str: dongtaiwang.com
+  alpn:
+  - h3
+  protocol: udp
+  up: 11 Mbps
+  down: 55 Mbps
+  skip-cert-verify: true
+- name: Canada_hysteria_31
+  server: 104.234.70.41
+  type: hysteria
+  port: 57153
+  auth-str: dongtaiwang.com
+  alpn:
+  - h3
+  protocol: udp
+  up: 11 Mbps
+  down: 55 Mbps
+  skip-cert-verify: true
+- name: Taiwan_hysteria_41
+  type: hysteria
+  server: www.dtku46.xyz
+  port: 11223
+  auth-str: mqoE9qSoyMFa
+  alpn:
+  - h3
+  protocol: udp
+  up: 11 Mbps
+  down: 55 Mbps
+  skip-cert-verify: true
+- name: Canada_hysteria_51
+  server: 104.234.70.6
+  type: hysteria
+  port: 16117
+  auth-str: dongtaiwang.com
+  alpn:
+  - h3
+  protocol: udp
+  up: 11 Mbps
+  down: 55 Mbps
+  skip-cert-verify: true
+- name: Taiwan_hysteria_61
+  type: hysteria
+  server: www.dtku46.xyz
+  port: 11223
+  auth-str: mqoE9qSoyMFa
+  alpn:
+  - h3
+  protocol: udp
+  up: 11 Mbps
+  down: 55 Mbps
+  skip-cert-verify: true
+- name: United States_tuic_71
+  server: 64.110.25.10
+  port: 11227
+  type: tuic
+  uuid: 764b539f-2d3c-4772-9731-5ebf6984af98
+  password: dongtaiwang.com
+  sni: bing.com
+  alpn:
+  - h3
+  request-timeout: 8000
+  udp-relay-mode: native
+  skip-cert-verify: true
+  congestion-controller: bbr
+- name: United States_hysteria_81
+  type: hysteria
+  server: 62.204.54.81
+  port: 46333
+  sni: bing.com
+  skip-cert-verify: true
+  alpn:
+  - h3
+  protocol: udp
+  auth_str: dongtaiwang.com
+  up: 5
+  down: 10
+- name: Taiwan_hysteria_91
+  type: hysteria
+  server: www.dtku50.xyz
+  port: 23577
+  sni: www.amazon.cn
+  skip-cert-verify: true
+  alpn:
+  - h3
+  protocol: udp
+  auth_str: dongtaiwang.com
+  up: 2
+  down: 10
+- name: United States_hy_0
+  type: hysteria
+  server: 167.160.91.115
+  port: 41189
+  ports: 41189
+  auth_str: bWAwIqINo7XDm1fUlXQGBifVIXoYs1ylgVKqWFKzK1XyDKuwNF
+  up: 80
+  down: 100
+  fast-open: true
+  protocol: udp
+  sni: www.amazon.cn
+  skip-cert-verify: true
+  alpn:
+  - h3
+- name: United States_hy_1
+  type: hysteria
+  server: 173.234.25.52
+  port: 20164
+  ports: 20164
+  auth_str: Ljg6NNEATDqP97hdAdHe1lJv7ggtKc0h7zmCCZKCX3qY0LR64F
+  up: 80
+  down: 100
+  fast-open: true
+  protocol: udp
+  sni: www.microsoft.com
+  skip-cert-verify: true
+  alpn:
+  - h3
+- name: United States_hy_2
+  type: hysteria
+  server: 108.181.22.239
+  port: 39967
+  ports: 39967
+  auth_str: dongtaiwang.com
+  up: 80
+  down: 100
+  fast-open: true
+  protocol: udp
+  sni: bing.com
+  skip-cert-verify: true
+  alpn:
+  - h3
+- name: France_hy_3
+  type: hysteria
+  server: 51.158.54.46
+  port: 11926
+  ports: 11926
+  auth_str: Trz2alKwzCImRAXI3nXfpo1ylpHfqOL8s1vageWKoyjjvWeMVs
+  up: 80
+  down: 100
+  fast-open: true
+  protocol: udp
+  sni: youku.com
+  skip-cert-verify: true
+  alpn:
+  - h3
+- name: Taiwan_hy2_0
+  type: hysteria2
+  server: www.dtku46.xyz
+  port: 55307
+  password: dongtaiwang.com
+  fast-open: true
+  sni: www.bing.com
+  skip-cert-verify: true
+- name: United States_hy2_1
+  type: hysteria2
+  server: 108.181.22.155
+  port: 27710
+  password: dongtaiwang.com
+  fast-open: true
+  sni: www.bing.com
+  skip-cert-verify: true
+- name: United States_hy2_2
+  type: hysteria2
+  server: 167.160.90.252
+  port: 63530
+  password: dongtaiwang.com
+  fast-open: true
+  sni: www.bing.com
+  skip-cert-verify: true
+- name: United States_hy2_3
+  type: hysteria2
+  server: 108.181.22.155
+  port: 27710
+  password: dongtaiwang.com
+  fast-open: true
+  sni: www.bing.com
+  skip-cert-verify: true
 proxy-groups:
 - name: 节点选择
   type: select
@@ -63,13 +276,70 @@ proxy-groups:
   url: http://www.gstatic.com/generate_204
   interval: 300
   tolerance: 50
-  proxies: []
+  proxies:
+  - United States_hysteria_01
+  - United States_hysteria_02
+  - United States_hysteria_11
+  - United States_hysteria_21
+  - Canada_hysteria_31
+  - Taiwan_hysteria_41
+  - Canada_hysteria_51
+  - Taiwan_hysteria_61
+  - United States_tuic_71
+  - United States_hysteria_81
+  - Taiwan_hysteria_91
+  - United States_hy_0
+  - United States_hy_1
+  - United States_hy_2
+  - France_hy_3
+  - Taiwan_hy2_0
+  - United States_hy2_1
+  - United States_hy2_2
+  - United States_hy2_3
 - name: 手动选择
   type: select
-  proxies: []
+  proxies:
+  - United States_hysteria_01
+  - United States_hysteria_02
+  - United States_hysteria_11
+  - United States_hysteria_21
+  - Canada_hysteria_31
+  - Taiwan_hysteria_41
+  - Canada_hysteria_51
+  - Taiwan_hysteria_61
+  - United States_tuic_71
+  - United States_hysteria_81
+  - Taiwan_hysteria_91
+  - United States_hy_0
+  - United States_hy_1
+  - United States_hy_2
+  - France_hy_3
+  - Taiwan_hy2_0
+  - United States_hy2_1
+  - United States_hy2_2
+  - United States_hy2_3
 - name: 负载均衡
   type: load-balance
-  proxies: []
+  proxies:
+  - United States_hysteria_01
+  - United States_hysteria_02
+  - United States_hysteria_11
+  - United States_hysteria_21
+  - Canada_hysteria_31
+  - Taiwan_hysteria_41
+  - Canada_hysteria_51
+  - Taiwan_hysteria_61
+  - United States_tuic_71
+  - United States_hysteria_81
+  - Taiwan_hysteria_91
+  - United States_hy_0
+  - United States_hy_1
+  - United States_hy_2
+  - France_hy_3
+  - Taiwan_hy2_0
+  - United States_hy2_1
+  - United States_hy2_2
+  - United States_hy2_3
   url: http://www.gstatic.com/generate_204
   interval: 300
   strategy: round-robin
