@@ -4,6 +4,9 @@ import urllib.request
 import yaml
 import codecs
 import logging
+import geoip2.database
+import socket
+import re
 
 # 提取节点
 def process_urls(url_file, processor):
@@ -20,6 +23,23 @@ def process_urls(url_file, processor):
                 logging.error(f"Error processing URL {url}: {e}")
     except Exception as e:
         logging.error(f"Error reading file {url_file}: {e}")
+def get_physical_location(address):
+    address = re.sub(':.*', '', address)  # 用正则表达式去除端口部分
+    try:
+        ip_address = socket.gethostbyname(address)
+    except socket.gaierror:
+        ip_address = address
+
+    try:
+        reader = geoip2.database.Reader('GeoLite2-City.mmdb')  # 这里的路径需要指向你自己的数据库文件
+        response = reader.city(ip_address)
+        country = response.country.name
+        city = response.city.name
+        #return f"{country}_{city}"
+        return f"{country}"
+    except geoip2.errors.AddressNotFoundError as e:
+        print(f"Error: {e}")
+        return "Unknown"
 #提取clash节点
 def process_clash(data, index):
             # 解析YAML格式的内容
@@ -54,7 +74,9 @@ def process_clash(data, index):
                         security = 'reality'
                     else:
                         security = 'tls'
-                    vless_meta =  f"vless://{uuid}@{server}:{port}?security={security}&allowInsecure{insecure}&flow={flow}&type={network}&fp={fp}&pbk={publicKey}&sid={short_id}&sni={sni}&serviceName={grpc_serviceName}&path={ws_path}&host={ws_headers_host}#vless_meta_{index}"
+                    location = get_physical_location(server)
+                    name = f"{location}_vless_{index}"
+                    vless_meta =  f"vless://{uuid}@{server}:{port}?security={security}&allowInsecure{insecure}&flow={flow}&type={network}&fp={fp}&pbk={publicKey}&sid={short_id}&sni={sni}&serviceName={grpc_serviceName}&path={ws_path}&host={ws_headers_host}#{name}"
 
                     merged_proxies.append(vless_meta)
 
@@ -73,8 +95,9 @@ def process_clash(data, index):
                     sni = proxy.get("servername", "")
                     ws_path = proxy.get('ws-opts', {}).get('path', '')
                     ws_headers_host = proxy.get('ws-opts', {}).get('headers', {}).get('Host', '')
-
-                    vmess_meta =  f"vmess://{uuid}@{server}:{port}?security={security}&allowInsecure{insecure}&type={network}&fp={fp}&sni={sni}&path={ws_path}&host={ws_headers_host}#vmess_meta_{index}"
+                    location = get_physical_location(server)
+                    name = f"{location}_vmess_{index}"
+                    vmess_meta =  f"vmess://{uuid}@{server}:{port}?security={security}&allowInsecure{insecure}&type={network}&fp={fp}&sni={sni}&path={ws_path}&host={ws_headers_host}#{name}"
 
                     merged_proxies.append(vmess_meta)
 
