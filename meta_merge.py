@@ -2,8 +2,6 @@ import yaml
 import json
 import urllib.request
 import logging
-import geoip2.database
-import socket
 
 # 提取节点
 def process_urls(url_file, processor):
@@ -25,26 +23,9 @@ def process_clash(data, index):
     content = yaml.safe_load(data)
     proxies = content.get('proxies', [])
     for i, proxy in enumerate(proxies):
-        location = get_location(proxy['server'])
-        proxy['name'] = f"{location}_{proxy['type']}_{index}{i+1}"
+        proxy['name'] = f"meta_{proxy['type']}_{index}{i+1}"
     merged_proxies.extend(proxies)
 
-def get_location(address):
-    address = re.sub(':.*', '', address)  # 用正则表达式去除端口部分
-    try:
-        ip_address = socket.gethostbyname(address)
-    except socket.gaierror:
-        ip_address = address
-
-    try:
-        reader = geoip2.database.Reader('GeoLite2-City.mmdb')  # 这里的路径需要指向你自己的数据库文件
-        response = reader.city(ip_address)
-        country = response.country.name
-        city = response.city.name
-        return f"{country}_{city}"
-    except geoip2.errors.AddressNotFoundError as e:
-        print(f"Error: {e}")
-        return "Unknown"
 
 # 处理sb，待办
 def process_sb(data, index):
@@ -60,8 +41,7 @@ def process_sb(data, index):
         server_name = json_data["outbounds"][1]["tls"]["server_name"]
         shadowtls_password = json_data["outbounds"][1]["password"]
         version = json_data["outbounds"][1]["version"]
-        location = get_location(server)
-        name = f"{location}_shadowtls_{index}"
+        name = f"shadowtls_{index}"
         # 创建当前网址的proxy字典
         proxy = {
             "name": name,
@@ -106,8 +86,7 @@ def process_hysteria(data, index):
         server_name = json_data["server_name"]
         alpn = json_data["alpn"]
         protocol = json_data["protocol"]
-        location = get_location(server)
-        name = f"{location}_hy_{index}"
+        name = f"hysteria_{index}"
 
         # 创建当前网址的proxy字典
         proxy = {
@@ -147,8 +126,7 @@ def process_hysteria2(data, index):
         fast_open = json_data["fastOpen"]
         insecure = json_data["tls"]["insecure"]
         sni = json_data["tls"]["sni"]
-        location = get_location(server)
-        name = f"{location}_hy2_{index}"
+        name = f"hysteria2_{index}"
 
         # 创建当前网址的proxy字典
         proxy = {
@@ -190,8 +168,7 @@ def process_xray(data, index):
             fingerprint = json_data["outbounds"][0]["streamSettings"]["realitySettings"]["fingerprint"]
             # udp转发
             isudp = True
-            location = get_location(server)
-            name = f"{location}_reality_{index}"
+            name = f"reality_{index}"
             
             # 根据network判断tcp
             if network == "tcp":
