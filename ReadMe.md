@@ -1,5 +1,7 @@
 ## 简介
 
+油管：[绵阿羊](https://www.youtube.com/channel/UC9xYHJIRj7oXTPYYrTv2U2A)
+
 ## 注意事项
 
 套上warp可绕过chromego封锁的网站（P，X）
