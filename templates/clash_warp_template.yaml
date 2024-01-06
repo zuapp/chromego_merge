@@ -35,6 +35,7 @@ proxies:
     private-key: +HpHpY/KjSv5hJdGrN2ok1A6CKhCmTQv5Unwyul9S1g=
     public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
     udp: true
+    ip-version: ipv6-prefer
     reserved: [0,0,0]
     remote-dns-resolve: true  
     dns: [ 1.1.1.1, 8.8.8.8 ]
