@@ -43,7 +43,7 @@ https://mareep.netlify.app/sub/shadowrocket_base64.txt
 ### sing-box订阅链接（1.8.0以上）
 
 ```
-https://mareep.netlify.app/sub/sub.json
+https://mareep.netlify.app/sub/sb.json
 ```
 
 
