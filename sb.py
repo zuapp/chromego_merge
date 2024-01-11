@@ -18,7 +18,7 @@ if response.status_code == 200:
     # 构建输出文件路径
     output_path = os.path.join(output_folder, output_filename)
 
-    # 将响应内容写入文件
+    # 将响应内容写入文件，使用utf-8编码
     with open(output_path, 'w', encoding='utf-8') as file:
         file.write(response.text)
 
