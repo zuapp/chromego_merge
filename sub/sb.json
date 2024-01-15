@@ -108,7 +108,7 @@
         "🇨🇦 油管绵阿羊_Canada_vmess_11",
         "🇨🇦 油管绵阿羊_Canada_vless_21",
         "🇨🇦 油管绵阿羊_Canada_vmess_31",
-        "🇹🇼 油管绵阿羊_Taiwan_hysteria_41",
+        "油管绵阿羊_None_vmess_41",
         "油管绵阿羊_None_vmess_51",
         "🇹🇼 油管绵阿羊_Taiwan_hysteria_61",
         "🇺🇸 油管绵阿羊_United States_hysteria_71",
@@ -346,7 +346,6 @@
       "tag": "TaiWan",
       "type": "selector",
       "outbounds": [
-        "🇹🇼 油管绵阿羊_Taiwan_hysteria_41",
         "🇹🇼 油管绵阿羊_Taiwan_hysteria_61",
         "🇹🇼 油管绵阿羊_Taiwan_hysteria_91",
         "proxy"
@@ -390,6 +389,7 @@
         "🇨🇦 油管绵阿羊_Canada_vmess_11",
         "🇨🇦 油管绵阿羊_Canada_vless_21",
         "🇨🇦 油管绵阿羊_Canada_vmess_31",
+        "油管绵阿羊_None_vmess_41",
         "油管绵阿羊_None_vmess_51",
         "🇫🇷 油管绵阿羊_France_hy_3",
         "proxy"
@@ -403,7 +403,7 @@
         "🇨🇦 油管绵阿羊_Canada_vmess_11",
         "🇨🇦 油管绵阿羊_Canada_vless_21",
         "🇨🇦 油管绵阿羊_Canada_vmess_31",
-        "🇹🇼 油管绵阿羊_Taiwan_hysteria_41",
+        "油管绵阿羊_None_vmess_41",
         "油管绵阿羊_None_vmess_51",
         "🇹🇼 油管绵阿羊_Taiwan_hysteria_61",
         "🇺🇸 油管绵阿羊_United States_hysteria_71",
@@ -516,20 +516,22 @@
       }
     },
     {
-      "tag": "🇹🇼 油管绵阿羊_Taiwan_hysteria_41",
-      "type": "hysteria",
-      "server": "111.243.97.209",
-      "server_port": 22334,
-      "up_mbps": 11,
-      "down_mbps": 55,
-      "auth_str": "dongtaiwang.com",
+      "tag": "油管绵阿羊_None_vmess_41",
+      "type": "vmess",
+      "server": "cloudflare.cfgo.cc",
+      "server_port": 443,
+      "uuid": "f5c180eb-fbce-49ac-9029-482eca9385c0",
+      "security": "auto",
+      "alter_id": 0,
+      "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
-        "server_name": "",
-        "alpn": [
-          "h3"
-        ],
-        "insecure": true
+        "insecure": true,
+        "server_name": ""
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/gzogws"
       }
     },
     {
@@ -554,7 +556,7 @@
     {
       "tag": "🇹🇼 油管绵阿羊_Taiwan_hysteria_61",
       "type": "hysteria",
-      "server": "www4.dtku49.xyz",
+      "server": "111.243.97.209",
       "server_port": 22334,
       "up_mbps": 11,
       "down_mbps": 55,
