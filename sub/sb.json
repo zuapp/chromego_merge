@@ -112,7 +112,7 @@
         "🇨🇦 油管绵阿羊_Canada_vmess_41",
         "🇨🇦 油管绵阿羊_Canada_vmess_51",
         "🇹🇼 油管绵阿羊_Taiwan_hysteria_61",
-        "🇺🇸 油管绵阿羊_United States_hysteria_71",
+        "🇺🇸 油管绵阿羊_United States_hysteria2_71",
         "🇺🇸 油管绵阿羊_United States_hysteria_81",
         "🇹🇼 油管绵阿羊_Taiwan_hysteria_91",
         "🇺🇸 油管绵阿羊_United States_hy_0",
@@ -370,7 +370,7 @@
       "tag": "America",
       "type": "selector",
       "outbounds": [
-        "🇺🇸 油管绵阿羊_United States_hysteria_71",
+        "🇺🇸 油管绵阿羊_United States_hysteria2_71",
         "🇺🇸 油管绵阿羊_United States_hysteria_81",
         "🇺🇸 油管绵阿羊_United States_hy_0",
         "🇺🇸 油管绵阿羊_United States_hy_1",
@@ -409,7 +409,7 @@
         "🇨🇦 油管绵阿羊_Canada_vmess_41",
         "🇨🇦 油管绵阿羊_Canada_vmess_51",
         "🇹🇼 油管绵阿羊_Taiwan_hysteria_61",
-        "🇺🇸 油管绵阿羊_United States_hysteria_71",
+        "🇺🇸 油管绵阿羊_United States_hysteria2_71",
         "🇺🇸 油管绵阿羊_United States_hysteria_81",
         "🇹🇼 油管绵阿羊_Taiwan_hysteria_91",
         "🇺🇸 油管绵阿羊_United States_hy_0",
@@ -608,20 +608,20 @@
       }
     },
     {
-      "tag": "🇺🇸 油管绵阿羊_United States_hysteria_71",
-      "type": "hysteria",
-      "server": "64.110.25.10",
-      "server_port": 44556,
-      "up_mbps": 11,
-      "down_mbps": 55,
-      "auth_str": "dongtaiwang.com",
+      "tag": "🇺🇸 油管绵阿羊_United States_hysteria2_71",
+      "type": "hysteria2",
+      "server": "108.181.24.77",
+      "server_port": 18775,
+      "password": "dongtaiwang.com",
+      "up_mbps": 10,
+      "down_mbps": 100,
       "tls": {
         "enabled": true,
-        "server_name": "",
+        "server_name": "bing.com",
+        "insecure": true,
         "alpn": [
           "h3"
-        ],
-        "insecure": true
+        ]
       }
     },
     {
@@ -713,10 +713,10 @@
       "tag": "🇫🇷 油管绵阿羊_France_hy_3",
       "type": "hysteria",
       "server": "51.158.54.46",
-      "server_port": 11926,
+      "server_port": 55396,
       "up_mbps": 80,
       "down_mbps": 100,
-      "auth_str": "Trz2alKwzCImRAXI3nXfpo1ylpHfqOL8s1vageWKoyjjvWeMVs",
+      "auth_str": "dongtaiwang.com",
       "tls": {
         "enabled": true,
         "server_name": "youku.com",
@@ -729,8 +729,8 @@
     {
       "tag": "🇺🇸 油管绵阿羊_United States_hy2_0",
       "type": "hysteria2",
-      "server": "64.110.25.11",
-      "server_port": 33337,
+      "server": "108.181.24.77",
+      "server_port": 18775,
       "password": "dongtaiwang.com",
       "up_mbps": 10,
       "down_mbps": 100,
@@ -746,8 +746,8 @@
     {
       "tag": "🇺🇸 油管绵阿羊_United States_hy2_1",
       "type": "hysteria2",
-      "server": "64.110.25.11",
-      "server_port": 33337,
+      "server": "108.181.24.77",
+      "server_port": 18775,
       "password": "dongtaiwang.com",
       "up_mbps": 10,
       "down_mbps": 100,
@@ -780,8 +780,8 @@
     {
       "tag": "🇺🇸 油管绵阿羊_United States_hy2_3",
       "type": "hysteria2",
-      "server": "64.110.25.11",
-      "server_port": 33337,
+      "server": "108.181.24.77",
+      "server_port": 18775,
       "password": "dongtaiwang.com",
       "up_mbps": 10,
       "down_mbps": 100,
