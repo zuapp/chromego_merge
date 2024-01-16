@@ -104,12 +104,13 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇨🇦 油管绵阿羊_Canada_vmess_01",
+        "🇨🇦 油管绵阿羊_Canada_vless_01",
+        "🇨🇦 油管绵阿羊_Canada_vless_02",
         "🇨🇦 油管绵阿羊_Canada_vmess_11",
         "🇨🇦 油管绵阿羊_Canada_vless_21",
-        "🇨🇦 油管绵阿羊_Canada_vmess_31",
-        "油管绵阿羊_None_vmess_41",
-        "油管绵阿羊_None_vmess_51",
+        "🇨🇦 油管绵阿羊_Canada_vless_31",
+        "🇨🇦 油管绵阿羊_Canada_vmess_41",
+        "🇨🇦 油管绵阿羊_Canada_vmess_51",
         "🇹🇼 油管绵阿羊_Taiwan_hysteria_61",
         "🇺🇸 油管绵阿羊_United States_hysteria_71",
         "🇺🇸 油管绵阿羊_United States_hysteria_81",
@@ -385,12 +386,13 @@
       "tag": "Others",
       "type": "selector",
       "outbounds": [
-        "🇨🇦 油管绵阿羊_Canada_vmess_01",
+        "🇨🇦 油管绵阿羊_Canada_vless_01",
+        "🇨🇦 油管绵阿羊_Canada_vless_02",
         "🇨🇦 油管绵阿羊_Canada_vmess_11",
         "🇨🇦 油管绵阿羊_Canada_vless_21",
-        "🇨🇦 油管绵阿羊_Canada_vmess_31",
-        "油管绵阿羊_None_vmess_41",
-        "油管绵阿羊_None_vmess_51",
+        "🇨🇦 油管绵阿羊_Canada_vless_31",
+        "🇨🇦 油管绵阿羊_Canada_vmess_41",
+        "🇨🇦 油管绵阿羊_Canada_vmess_51",
         "🇫🇷 油管绵阿羊_France_hy_3",
         "proxy"
       ]
@@ -399,12 +401,13 @@
       "tag": "auto",
       "type": "urltest",
       "outbounds": [
-        "🇨🇦 油管绵阿羊_Canada_vmess_01",
+        "🇨🇦 油管绵阿羊_Canada_vless_01",
+        "🇨🇦 油管绵阿羊_Canada_vless_02",
         "🇨🇦 油管绵阿羊_Canada_vmess_11",
         "🇨🇦 油管绵阿羊_Canada_vless_21",
-        "🇨🇦 油管绵阿羊_Canada_vmess_31",
-        "油管绵阿羊_None_vmess_41",
-        "油管绵阿羊_None_vmess_51",
+        "🇨🇦 油管绵阿羊_Canada_vless_31",
+        "🇨🇦 油管绵阿羊_Canada_vmess_41",
+        "🇨🇦 油管绵阿羊_Canada_vmess_51",
         "🇹🇼 油管绵阿羊_Taiwan_hysteria_61",
         "🇺🇸 油管绵阿羊_United States_hysteria_71",
         "🇺🇸 油管绵阿羊_United States_hysteria_81",
@@ -435,22 +438,51 @@
       "tag": "block"
     },
     {
-      "tag": "🇨🇦 油管绵阿羊_Canada_vmess_01",
-      "type": "vmess",
+      "tag": "🇨🇦 油管绵阿羊_Canada_vless_01",
+      "type": "vless",
       "server": "dongtaiwang3.com",
       "server_port": 443,
-      "uuid": "f5c180eb-fbce-49ac-9029-482eca9385c0",
-      "security": "auto",
-      "alter_id": 0,
+      "uuid": "a9202ced-3185-489c-8b28-74e9a00d894d",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
         "insecure": true,
-        "server_name": ""
+        "server_name": "dongtaiwang.dtku47.xyz",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
       },
       "transport": {
         "type": "ws",
-        "path": "/gzogws"
+        "path": "/eobjws",
+        "headers": {
+          "Host": "dongtaiwang.dtku47.xyz"
+        }
+      }
+    },
+    {
+      "tag": "🇨🇦 油管绵阿羊_Canada_vless_02",
+      "type": "vless",
+      "server": "dongtaiwang2.com",
+      "server_port": 443,
+      "uuid": "a9202ced-3185-489c-8b28-74e9a00d894d",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "dongtaiwang.dtku47.xyz",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/eobjws",
+        "headers": {
+          "Host": "dongtaiwang.dtku47.xyz"
+        }
       }
     },
     {
@@ -497,7 +529,50 @@
       }
     },
     {
-      "tag": "🇨🇦 油管绵阿羊_Canada_vmess_31",
+      "tag": "🇨🇦 油管绵阿羊_Canada_vless_31",
+      "type": "vless",
+      "server": "dongtaiwang3.com",
+      "server_port": 443,
+      "uuid": "869d601c-9e4c-4e83-b816-bb553234aaea",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "dongtaiwang.freeh1.xyz",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/pxzaws",
+        "headers": {
+          "Host": "dongtaiwang.freeh1.xyz"
+        }
+      }
+    },
+    {
+      "tag": "🇨🇦 油管绵阿羊_Canada_vmess_41",
+      "type": "vmess",
+      "server": "dongtaiwang2.com",
+      "server_port": 443,
+      "uuid": "f5c180eb-fbce-49ac-9029-482eca9385c0",
+      "security": "auto",
+      "alter_id": 0,
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": ""
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/gzogws"
+      }
+    },
+    {
+      "tag": "🇨🇦 油管绵阿羊_Canada_vmess_51",
       "type": "vmess",
       "server": "dongtaiwang3.com",
       "server_port": 443,
@@ -516,47 +591,9 @@
       }
     },
     {
-      "tag": "油管绵阿羊_None_vmess_41",
-      "type": "vmess",
-      "server": "cloudflare.cfgo.cc",
-      "server_port": 443,
-      "uuid": "f5c180eb-fbce-49ac-9029-482eca9385c0",
-      "security": "auto",
-      "alter_id": 0,
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "server_name": ""
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/gzogws"
-      }
-    },
-    {
-      "tag": "油管绵阿羊_None_vmess_51",
-      "type": "vmess",
-      "server": "cloudflare.cfgo.cc",
-      "server_port": 443,
-      "uuid": "f5c180eb-fbce-49ac-9029-482eca9385c0",
-      "security": "auto",
-      "alter_id": 0,
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "server_name": ""
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/gzogws"
-      }
-    },
-    {
       "tag": "🇹🇼 油管绵阿羊_Taiwan_hysteria_61",
       "type": "hysteria",
-      "server": "111.243.97.209",
+      "server": "www2.dtku48.xyz",
       "server_port": 22334,
       "up_mbps": 11,
       "down_mbps": 55,
