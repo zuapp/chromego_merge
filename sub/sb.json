@@ -105,9 +105,10 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇺🇸 油管绵阿羊_United States_ss_01",
-        "🇺🇸 油管绵阿羊_United States_ss_01_shadowtls",
-        "🇨🇦 油管绵阿羊_Canada_vmess_11",
+        "🇨🇦 油管绵阿羊_Canada_vless_01",
+        "🇨🇦 油管绵阿羊_Canada_vless_02",
+        "🇺🇸 油管绵阿羊_United States_ss_11",
+        "🇺🇸 油管绵阿羊_United States_ss_11_shadowtls",
         "🇨🇦 油管绵阿羊_Canada_vless_21",
         "🇨🇦 油管绵阿羊_Canada_vless_31",
         "🇨🇦 油管绵阿羊_Canada_vmess_41",
@@ -371,8 +372,8 @@
       "tag": "America",
       "type": "selector",
       "outbounds": [
-        "🇺🇸 油管绵阿羊_United States_ss_01",
-        "🇺🇸 油管绵阿羊_United States_ss_01_shadowtls",
+        "🇺🇸 油管绵阿羊_United States_ss_11",
+        "🇺🇸 油管绵阿羊_United States_ss_11_shadowtls",
         "🇺🇸 油管绵阿羊_United States_hysteria2_81",
         "🇺🇸 油管绵阿羊_United States_hy_1",
         "🇺🇸 油管绵阿羊_United States_hy_2",
@@ -388,7 +389,8 @@
       "tag": "Others",
       "type": "selector",
       "outbounds": [
-        "🇨🇦 油管绵阿羊_Canada_vmess_11",
+        "🇨🇦 油管绵阿羊_Canada_vless_01",
+        "🇨🇦 油管绵阿羊_Canada_vless_02",
         "🇨🇦 油管绵阿羊_Canada_vless_21",
         "🇨🇦 油管绵阿羊_Canada_vless_31",
         "🇨🇦 油管绵阿羊_Canada_vmess_41",
@@ -402,9 +404,10 @@
       "tag": "auto",
       "type": "urltest",
       "outbounds": [
-        "🇺🇸 油管绵阿羊_United States_ss_01",
-        "🇺🇸 油管绵阿羊_United States_ss_01_shadowtls",
-        "🇨🇦 油管绵阿羊_Canada_vmess_11",
+        "🇨🇦 油管绵阿羊_Canada_vless_01",
+        "🇨🇦 油管绵阿羊_Canada_vless_02",
+        "🇺🇸 油管绵阿羊_United States_ss_11",
+        "🇺🇸 油管绵阿羊_United States_ss_11_shadowtls",
         "🇨🇦 油管绵阿羊_Canada_vless_21",
         "🇨🇦 油管绵阿羊_Canada_vless_31",
         "🇨🇦 油管绵阿羊_Canada_vmess_41",
@@ -439,7 +442,55 @@
       "tag": "block"
     },
     {
-      "tag": "🇺🇸 油管绵阿羊_United States_ss_01",
+      "tag": "🇨🇦 油管绵阿羊_Canada_vless_01",
+      "type": "vless",
+      "server": "dongtaiwang3.com",
+      "server_port": 443,
+      "uuid": "a9202ced-3185-489c-8b28-74e9a00d894d",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "dongtaiwang.dtku47.xyz",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/eobjws",
+        "headers": {
+          "Host": "dongtaiwang.dtku47.xyz"
+        }
+      }
+    },
+    {
+      "tag": "🇨🇦 油管绵阿羊_Canada_vless_02",
+      "type": "vless",
+      "server": "dongtaiwang2.com",
+      "server_port": 443,
+      "uuid": "a9202ced-3185-489c-8b28-74e9a00d894d",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "dongtaiwang.dtku47.xyz",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/eobjws",
+        "headers": {
+          "Host": "dongtaiwang.dtku47.xyz"
+        }
+      }
+    },
+    {
+      "tag": "🇺🇸 油管绵阿羊_United States_ss_11",
       "type": "shadowsocks",
       "method": "2022-blake3-aes-128-gcm",
       "password": "lolvK9uAhEDYTMuqCRblBg==",
@@ -449,10 +500,10 @@
         "max_connections": 8,
         "min_streams": 16
       },
-      "detour": "油管绵阿羊_United States_ss_01_shadowtls"
+      "detour": "油管绵阿羊_United States_ss_11_shadowtls"
     },
     {
-      "tag": "🇺🇸 油管绵阿羊_United States_ss_01_shadowtls",
+      "tag": "🇺🇸 油管绵阿羊_United States_ss_11_shadowtls",
       "type": "shadowtls",
       "server": "167.160.90.252",
       "server_port": 8883,
@@ -465,25 +516,6 @@
           "enabled": true,
           "fingerprint": "chrome"
         }
-      }
-    },
-    {
-      "tag": "🇨🇦 油管绵阿羊_Canada_vmess_11",
-      "type": "vmess",
-      "server": "dongtaiwang2.com",
-      "server_port": 443,
-      "uuid": "f5c180eb-fbce-49ac-9029-482eca9385c0",
-      "security": "auto",
-      "alter_id": 0,
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "server_name": ""
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/gzogws"
       }
     },
     {
