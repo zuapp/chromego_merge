@@ -105,26 +105,25 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇨🇦 油管绵阿羊_Canada_vless_01",
-        "🇨🇦 油管绵阿羊_Canada_vless_02",
-        "🇺🇸 油管绵阿羊_United States_ss_11",
-        "🇺🇸 油管绵阿羊_United States_ss_11_shadowtls",
-        "🇨🇦 油管绵阿羊_Canada_vless_21",
-        "🇨🇦 油管绵阿羊_Canada_vless_31",
-        "🇨🇦 油管绵阿羊_Canada_vmess_41",
-        "🇨🇦 油管绵阿羊_Canada_vmess_51",
-        "🇹🇼 油管绵阿羊_Taiwan_hysteria_61",
-        "🇫🇷 油管绵阿羊_France_hysteria2_71",
-        "🇺🇸 油管绵阿羊_United States_hysteria2_81",
-        "🇹🇼 油管绵阿羊_Taiwan_hysteria_91",
-        "🇫🇷 油管绵阿羊_France_hy_0",
-        "🇺🇸 油管绵阿羊_United States_hy_1",
-        "🇺🇸 油管绵阿羊_United States_hy_2",
-        "🇺🇸 油管绵阿羊_United States_hy_3",
-        "🇺🇸 油管绵阿羊_United States_hy2_0",
-        "🇺🇸 油管绵阿羊_United States_hy2_1",
-        "🇺🇸 油管绵阿羊_United States_hy2_2",
-        "🇺🇸 油管绵阿羊_United States_hy2_3"
+        "🇨🇦 Canada_vless_0",
+        "🇨🇦 Canada_vless_02",
+        "🇨🇦 Canada_vless_2",
+        "🇨🇦 Canada_vless_3",
+        "🇹🇼 Taiwan_hy_6",
+        "🇫🇷 France_hy2_7",
+        "🇺🇸 United States_hy2_8",
+        "🇹🇼 Taiwan_hy_9",
+        "🇫🇷 France_hysteria_0",
+        "🇺🇸 United States_hysteria_1",
+        "🇺🇸 United States_hysteria_2",
+        "🇺🇸 United States_hysteria_3",
+        "🇺🇸 United States_hysteria2_0",
+        "🇺🇸 United States_hysteria2_1",
+        "🇺🇸 United States_hysteria2_2",
+        "🇺🇸 United States_hysteria2_3",
+        "🇨🇦 Canada_vless_03",
+        "🇨🇦 Canada_vless_1",
+        "🇨🇦 Canada_vless_32"
       ]
     },
     {
@@ -349,8 +348,8 @@
       "tag": "TaiWan",
       "type": "selector",
       "outbounds": [
-        "🇹🇼 油管绵阿羊_Taiwan_hysteria_61",
-        "🇹🇼 油管绵阿羊_Taiwan_hysteria_91",
+        "🇹🇼 Taiwan_hy_6",
+        "🇹🇼 Taiwan_hy_9",
         "proxy"
       ]
     },
@@ -372,16 +371,14 @@
       "tag": "America",
       "type": "selector",
       "outbounds": [
-        "🇺🇸 油管绵阿羊_United States_ss_11",
-        "🇺🇸 油管绵阿羊_United States_ss_11_shadowtls",
-        "🇺🇸 油管绵阿羊_United States_hysteria2_81",
-        "🇺🇸 油管绵阿羊_United States_hy_1",
-        "🇺🇸 油管绵阿羊_United States_hy_2",
-        "🇺🇸 油管绵阿羊_United States_hy_3",
-        "🇺🇸 油管绵阿羊_United States_hy2_0",
-        "🇺🇸 油管绵阿羊_United States_hy2_1",
-        "🇺🇸 油管绵阿羊_United States_hy2_2",
-        "🇺🇸 油管绵阿羊_United States_hy2_3",
+        "🇺🇸 United States_hy2_8",
+        "🇺🇸 United States_hysteria_1",
+        "🇺🇸 United States_hysteria_2",
+        "🇺🇸 United States_hysteria_3",
+        "🇺🇸 United States_hysteria2_0",
+        "🇺🇸 United States_hysteria2_1",
+        "🇺🇸 United States_hysteria2_2",
+        "🇺🇸 United States_hysteria2_3",
         "proxy"
       ]
     },
@@ -389,14 +386,15 @@
       "tag": "Others",
       "type": "selector",
       "outbounds": [
-        "🇨🇦 油管绵阿羊_Canada_vless_01",
-        "🇨🇦 油管绵阿羊_Canada_vless_02",
-        "🇨🇦 油管绵阿羊_Canada_vless_21",
-        "🇨🇦 油管绵阿羊_Canada_vless_31",
-        "🇨🇦 油管绵阿羊_Canada_vmess_41",
-        "🇨🇦 油管绵阿羊_Canada_vmess_51",
-        "🇫🇷 油管绵阿羊_France_hysteria2_71",
-        "🇫🇷 油管绵阿羊_France_hy_0",
+        "🇨🇦 Canada_vless_0",
+        "🇨🇦 Canada_vless_02",
+        "🇨🇦 Canada_vless_2",
+        "🇨🇦 Canada_vless_3",
+        "🇫🇷 France_hy2_7",
+        "🇫🇷 France_hysteria_0",
+        "🇨🇦 Canada_vless_03",
+        "🇨🇦 Canada_vless_1",
+        "🇨🇦 Canada_vless_32",
         "proxy"
       ]
     },
@@ -404,26 +402,25 @@
       "tag": "auto",
       "type": "urltest",
       "outbounds": [
-        "🇨🇦 油管绵阿羊_Canada_vless_01",
-        "🇨🇦 油管绵阿羊_Canada_vless_02",
-        "🇺🇸 油管绵阿羊_United States_ss_11",
-        "🇺🇸 油管绵阿羊_United States_ss_11_shadowtls",
-        "🇨🇦 油管绵阿羊_Canada_vless_21",
-        "🇨🇦 油管绵阿羊_Canada_vless_31",
-        "🇨🇦 油管绵阿羊_Canada_vmess_41",
-        "🇨🇦 油管绵阿羊_Canada_vmess_51",
-        "🇹🇼 油管绵阿羊_Taiwan_hysteria_61",
-        "🇫🇷 油管绵阿羊_France_hysteria2_71",
-        "🇺🇸 油管绵阿羊_United States_hysteria2_81",
-        "🇹🇼 油管绵阿羊_Taiwan_hysteria_91",
-        "🇫🇷 油管绵阿羊_France_hy_0",
-        "🇺🇸 油管绵阿羊_United States_hy_1",
-        "🇺🇸 油管绵阿羊_United States_hy_2",
-        "🇺🇸 油管绵阿羊_United States_hy_3",
-        "🇺🇸 油管绵阿羊_United States_hy2_0",
-        "🇺🇸 油管绵阿羊_United States_hy2_1",
-        "🇺🇸 油管绵阿羊_United States_hy2_2",
-        "🇺🇸 油管绵阿羊_United States_hy2_3"
+        "🇨🇦 Canada_vless_0",
+        "🇨🇦 Canada_vless_02",
+        "🇨🇦 Canada_vless_2",
+        "🇨🇦 Canada_vless_3",
+        "🇹🇼 Taiwan_hy_6",
+        "🇫🇷 France_hy2_7",
+        "🇺🇸 United States_hy2_8",
+        "🇹🇼 Taiwan_hy_9",
+        "🇫🇷 France_hysteria_0",
+        "🇺🇸 United States_hysteria_1",
+        "🇺🇸 United States_hysteria_2",
+        "🇺🇸 United States_hysteria_3",
+        "🇺🇸 United States_hysteria2_0",
+        "🇺🇸 United States_hysteria2_1",
+        "🇺🇸 United States_hysteria2_2",
+        "🇺🇸 United States_hysteria2_3",
+        "🇨🇦 Canada_vless_03",
+        "🇨🇦 Canada_vless_1",
+        "🇨🇦 Canada_vless_32"
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": "10m",
@@ -442,7 +439,7 @@
       "tag": "block"
     },
     {
-      "tag": "🇨🇦 油管绵阿羊_Canada_vless_01",
+      "tag": "🇨🇦 Canada_vless_0",
       "type": "vless",
       "server": "dongtaiwang3.com",
       "server_port": 443,
@@ -466,7 +463,7 @@
       }
     },
     {
-      "tag": "🇨🇦 油管绵阿羊_Canada_vless_02",
+      "tag": "🇨🇦 Canada_vless_02",
       "type": "vless",
       "server": "dongtaiwang2.com",
       "server_port": 443,
@@ -490,36 +487,7 @@
       }
     },
     {
-      "tag": "🇺🇸 油管绵阿羊_United States_ss_11",
-      "type": "shadowsocks",
-      "method": "2022-blake3-aes-128-gcm",
-      "password": "lolvK9uAhEDYTMuqCRblBg==",
-      "multiplex": {
-        "enabled": true,
-        "protocol": "h2mux",
-        "max_connections": 8,
-        "min_streams": 16
-      },
-      "detour": "油管绵阿羊_United States_ss_11_shadowtls"
-    },
-    {
-      "tag": "🇺🇸 油管绵阿羊_United States_ss_11_shadowtls",
-      "type": "shadowtls",
-      "server": "167.160.90.252",
-      "server_port": 8883,
-      "version": 3,
-      "password": "d3971b31-e16b-4af2-b430-afb896380543",
-      "tls": {
-        "enabled": true,
-        "server_name": "addons.mozilla.org",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "tag": "🇨🇦 油管绵阿羊_Canada_vless_21",
+      "tag": "🇨🇦 Canada_vless_2",
       "type": "vless",
       "server": "dongtaiwang2.com",
       "server_port": 443,
@@ -543,7 +511,7 @@
       }
     },
     {
-      "tag": "🇨🇦 油管绵阿羊_Canada_vless_31",
+      "tag": "🇨🇦 Canada_vless_3",
       "type": "vless",
       "server": "dongtaiwang3.com",
       "server_port": 443,
@@ -567,50 +535,12 @@
       }
     },
     {
-      "tag": "🇨🇦 油管绵阿羊_Canada_vmess_41",
-      "type": "vmess",
-      "server": "dongtaiwang2.com",
-      "server_port": 443,
-      "uuid": "f5c180eb-fbce-49ac-9029-482eca9385c0",
-      "security": "auto",
-      "alter_id": 0,
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "server_name": ""
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/gzogws"
-      }
-    },
-    {
-      "tag": "🇨🇦 油管绵阿羊_Canada_vmess_51",
-      "type": "vmess",
-      "server": "dongtaiwang3.com",
-      "server_port": 443,
-      "uuid": "f5c180eb-fbce-49ac-9029-482eca9385c0",
-      "security": "auto",
-      "alter_id": 0,
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "server_name": ""
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/gzogws"
-      }
-    },
-    {
-      "tag": "🇹🇼 油管绵阿羊_Taiwan_hysteria_61",
+      "tag": "🇹🇼 Taiwan_hy_6",
       "type": "hysteria",
       "server": "www2.dtku48.xyz",
       "server_port": 22334,
-      "up_mbps": 11,
-      "down_mbps": 55,
+      "up_mbps": 50,
+      "down_mbps": 80,
       "auth_str": "dongtaiwang.com",
       "tls": {
         "enabled": true,
@@ -622,7 +552,7 @@
       }
     },
     {
-      "tag": "🇫🇷 油管绵阿羊_France_hysteria2_71",
+      "tag": "🇫🇷 France_hy2_7",
       "type": "hysteria2",
       "server": "51.158.54.46",
       "server_port": 44550,
@@ -639,13 +569,13 @@
       }
     },
     {
-      "tag": "🇺🇸 油管绵阿羊_United States_hysteria2_81",
+      "tag": "🇺🇸 United States_hy2_8",
       "type": "hysteria2",
       "server": "45.150.165.84",
       "server_port": 33440,
       "password": "d017e316-82cb-441c-8eea-7b5e9de64a20",
-      "up_mbps": 2,
-      "down_mbps": 10,
+      "up_mbps": 10,
+      "down_mbps": 100,
       "tls": {
         "enabled": true,
         "insecure": true,
@@ -659,13 +589,13 @@
       }
     },
     {
-      "tag": "🇹🇼 油管绵阿羊_Taiwan_hysteria_91",
+      "tag": "🇹🇼 Taiwan_hy_9",
       "type": "hysteria",
       "server": "www.dtku50.xyz",
       "server_port": 32408,
-      "up_mbps": 2,
-      "down_mbps": 10,
-      "auth_str": "dongtaiwang.com",
+      "up_mbps": 50,
+      "down_mbps": 80,
+      "auth_str": "",
       "tls": {
         "enabled": true,
         "server_name": "www.amazon.cn",
@@ -676,12 +606,12 @@
       }
     },
     {
-      "tag": "🇫🇷 油管绵阿羊_France_hy_0",
+      "tag": "🇫🇷 France_hysteria_0",
       "type": "hysteria",
       "server": "51.158.54.46",
       "server_port": 55396,
-      "up_mbps": 80,
-      "down_mbps": 100,
+      "up_mbps": 11,
+      "down_mbps": 55,
       "auth_str": "dongtaiwang.com",
       "tls": {
         "enabled": true,
@@ -693,12 +623,12 @@
       }
     },
     {
-      "tag": "🇺🇸 油管绵阿羊_United States_hy_1",
+      "tag": "🇺🇸 United States_hysteria_1",
       "type": "hysteria",
       "server": "173.234.25.52",
       "server_port": 30072,
-      "up_mbps": 80,
-      "down_mbps": 100,
+      "up_mbps": 11,
+      "down_mbps": 55,
       "auth_str": "dongtaiwang.com",
       "tls": {
         "enabled": true,
@@ -710,12 +640,12 @@
       }
     },
     {
-      "tag": "🇺🇸 油管绵阿羊_United States_hy_2",
+      "tag": "🇺🇸 United States_hysteria_2",
       "type": "hysteria",
       "server": "108.181.22.239",
       "server_port": 39967,
-      "up_mbps": 80,
-      "down_mbps": 100,
+      "up_mbps": 11,
+      "down_mbps": 55,
       "auth_str": "dongtaiwang.com",
       "tls": {
         "enabled": true,
@@ -727,12 +657,12 @@
       }
     },
     {
-      "tag": "🇺🇸 油管绵阿羊_United States_hy_3",
+      "tag": "🇺🇸 United States_hysteria_3",
       "type": "hysteria",
       "server": "167.160.91.115",
       "server_port": 41189,
-      "up_mbps": 80,
-      "down_mbps": 100,
+      "up_mbps": 11,
+      "down_mbps": 55,
       "auth_str": "bWAwIqINo7XDm1fUlXQGBifVIXoYs1ylgVKqWFKzK1XyDKuwNF",
       "tls": {
         "enabled": true,
@@ -744,7 +674,7 @@
       }
     },
     {
-      "tag": "🇺🇸 油管绵阿羊_United States_hy2_0",
+      "tag": "🇺🇸 United States_hysteria2_0",
       "type": "hysteria2",
       "server": "64.110.25.11",
       "server_port": 33337,
@@ -761,7 +691,7 @@
       }
     },
     {
-      "tag": "🇺🇸 油管绵阿羊_United States_hy2_1",
+      "tag": "🇺🇸 United States_hysteria2_1",
       "type": "hysteria2",
       "server": "64.110.25.11",
       "server_port": 33337,
@@ -778,7 +708,7 @@
       }
     },
     {
-      "tag": "🇺🇸 油管绵阿羊_United States_hy2_2",
+      "tag": "🇺🇸 United States_hysteria2_2",
       "type": "hysteria2",
       "server": "64.110.25.11",
       "server_port": 33337,
@@ -795,7 +725,7 @@
       }
     },
     {
-      "tag": "🇺🇸 油管绵阿羊_United States_hy2_3",
+      "tag": "🇺🇸 United States_hysteria2_3",
       "type": "hysteria2",
       "server": "108.181.24.77",
       "server_port": 18775,
@@ -809,6 +739,78 @@
         "alpn": [
           "h3"
         ]
+      }
+    },
+    {
+      "tag": "🇨🇦 Canada_vless_03",
+      "type": "vless",
+      "server": "dongtaiwang3.com",
+      "server_port": 443,
+      "uuid": "ffb15cd2-0521-49de-b8aa-fb15d58c8075",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "insecure": false,
+        "server_name": "v2ray3.freegradely.xyz",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/bqbows",
+        "headers": {
+          "Host": "v2ray3.freegradely.xyz"
+        }
+      }
+    },
+    {
+      "tag": "🇨🇦 Canada_vless_1",
+      "type": "vless",
+      "server": "dongtaiwang3.com",
+      "server_port": 443,
+      "uuid": "0773256c-d020-436d-afea-6eee7cb6c872",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "insecure": false,
+        "server_name": "xray1.freegradely.xyz",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/bodhws",
+        "headers": {
+          "Host": "xray1.freegradely.xyz"
+        }
+      }
+    },
+    {
+      "tag": "🇨🇦 Canada_vless_32",
+      "type": "vless",
+      "server": "dongtaiwang2.com",
+      "server_port": 443,
+      "uuid": "0773256c-d020-436d-afea-6eee7cb6c872",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "insecure": false,
+        "server_name": "xray1.freegradely.xyz",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/bodhws",
+        "headers": {
+          "Host": "xray1.freegradely.xyz"
+        }
       }
     }
   ],
