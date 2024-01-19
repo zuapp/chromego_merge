@@ -625,20 +625,17 @@
       "tag": "🇫🇷 油管绵阿羊_France_hysteria2_71",
       "type": "hysteria2",
       "server": "51.158.54.46",
-      "server_port": 23400,
-      "password": "d64df453-34f0-4fa8-b115-e6805f6d54db",
-      "up_mbps": 11,
-      "down_mbps": 55,
+      "server_port": 44550,
+      "password": "dongtaiwang.com",
+      "up_mbps": 10,
+      "down_mbps": 100,
       "tls": {
         "enabled": true,
+        "server_name": "bing.com",
         "insecure": true,
         "alpn": [
           "h3"
         ]
-      },
-      "obfs": {
-        "type": "salamander",
-        "password": "d64df453-34f0-4fa8-b115-e6805f6d54db"
       }
     },
     {
