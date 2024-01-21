@@ -106,9 +106,9 @@
         "auto",
         "direct",
         "🇨🇦 Canada_vless_0",
-        "🇺🇸 United States_vless_0",
+        "🇫🇷 France_vless_0",
         "🇺🇸 United States_vless_2",
-        "🇨🇦 Canada_vless_3",
+        "🇫🇷 France_vless_3",
         "🇹🇼 Taiwan_hy_6",
         "🇫🇷 France_hy2_7",
         "🇺🇸 United States_hy2_8",
@@ -121,7 +121,7 @@
         "🇺🇸 United States_hysteria2_1",
         "🇺🇸 United States_hysteria2_2",
         "🇺🇸 United States_hysteria2_3",
-        "🇨🇦 Canada_vless_02",
+        "🇫🇷 France_vless_02",
         "🇨🇦 Canada_vless_1",
         "🇺🇸 United States_vless_3"
       ]
@@ -371,7 +371,6 @@
       "tag": "America",
       "type": "selector",
       "outbounds": [
-        "🇺🇸 United States_vless_0",
         "🇺🇸 United States_vless_2",
         "🇺🇸 United States_hy2_8",
         "🇺🇸 United States_hysteria_1",
@@ -390,10 +389,11 @@
       "type": "selector",
       "outbounds": [
         "🇨🇦 Canada_vless_0",
-        "🇨🇦 Canada_vless_3",
+        "🇫🇷 France_vless_0",
+        "🇫🇷 France_vless_3",
         "🇫🇷 France_hy2_7",
         "🇫🇷 France_hysteria_0",
-        "🇨🇦 Canada_vless_02",
+        "🇫🇷 France_vless_02",
         "🇨🇦 Canada_vless_1",
         "proxy"
       ]
@@ -403,9 +403,9 @@
       "type": "urltest",
       "outbounds": [
         "🇨🇦 Canada_vless_0",
-        "🇺🇸 United States_vless_0",
+        "🇫🇷 France_vless_0",
         "🇺🇸 United States_vless_2",
-        "🇨🇦 Canada_vless_3",
+        "🇫🇷 France_vless_3",
         "🇹🇼 Taiwan_hy_6",
         "🇫🇷 France_hy2_7",
         "🇺🇸 United States_hy2_8",
@@ -418,7 +418,7 @@
         "🇺🇸 United States_hysteria2_1",
         "🇺🇸 United States_hysteria2_2",
         "🇺🇸 United States_hysteria2_3",
-        "🇨🇦 Canada_vless_02",
+        "🇫🇷 France_vless_02",
         "🇨🇦 Canada_vless_1",
         "🇺🇸 United States_vless_3"
       ],
@@ -463,16 +463,16 @@
       }
     },
     {
-      "tag": "🇺🇸 United States_vless_0",
+      "tag": "🇫🇷 France_vless_0",
       "type": "vless",
-      "server": "cu.dongtaiwang3.com",
+      "server": "fr.freeh1.xyz",
       "server_port": 443,
-      "uuid": "a9202ced-3185-489c-8b28-74e9a00d894d",
+      "uuid": "7b671cd2-233d-406c-88da-1c687727dc52",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
         "insecure": true,
-        "server_name": "dongtaiwang.dtku47.xyz",
+        "server_name": "fr.freeh1.xyz",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
@@ -480,9 +480,9 @@
       },
       "transport": {
         "type": "ws",
-        "path": "/eobjws",
+        "path": "/kfhaws",
         "headers": {
-          "Host": "dongtaiwang.dtku47.xyz"
+          "Host": "fr.freeh1.xyz"
         }
       }
     },
@@ -511,16 +511,16 @@
       }
     },
     {
-      "tag": "🇨🇦 Canada_vless_3",
+      "tag": "🇫🇷 France_vless_3",
       "type": "vless",
-      "server": "dongtaiwang2.com",
+      "server": "fr.freeh1.xyz",
       "server_port": 443,
-      "uuid": "869d601c-9e4c-4e83-b816-bb553234aaea",
+      "uuid": "7b671cd2-233d-406c-88da-1c687727dc52",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
         "insecure": true,
-        "server_name": "dongtaiwang.freeh1.xyz",
+        "server_name": "fr.freeh1.xyz",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
@@ -528,9 +528,9 @@
       },
       "transport": {
         "type": "ws",
-        "path": "/pxzaws",
+        "path": "/kfhaws",
         "headers": {
-          "Host": "dongtaiwang.freeh1.xyz"
+          "Host": "fr.freeh1.xyz"
         }
       }
     },
@@ -742,16 +742,16 @@
       }
     },
     {
-      "tag": "🇨🇦 Canada_vless_02",
+      "tag": "🇫🇷 France_vless_02",
       "type": "vless",
-      "server": "dongtaiwang3.com",
+      "server": "fr.freeh1.xyz",
       "server_port": 443,
-      "uuid": "ffb15cd2-0521-49de-b8aa-fb15d58c8075",
+      "uuid": "7b671cd2-233d-406c-88da-1c687727dc52",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
         "insecure": false,
-        "server_name": "v2ray3.freegradely.xyz",
+        "server_name": "fr.freeh1.xyz",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
@@ -759,9 +759,9 @@
       },
       "transport": {
         "type": "ws",
-        "path": "/bqbows",
+        "path": "/kfhaws",
         "headers": {
-          "Host": "v2ray3.freegradely.xyz"
+          "Host": "fr.freeh1.xyz"
         }
       }
     },
