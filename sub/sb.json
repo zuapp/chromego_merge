@@ -121,7 +121,7 @@
         "🇺🇸 United States_hysteria_3",
         "🇫🇷 France_hysteria2_0",
         "🇺🇸 United States_hysteria2_1",
-        "🇺🇸 United States_hysteria2_2",
+        "🇫🇷 France_hysteria2_2",
         "🇺🇸 United States_hysteria2_3",
         "🇨🇦 Canada_vless_03",
         "🇨🇦 Canada_vless_1",
@@ -380,7 +380,6 @@
         "🇺🇸 United States_hysteria_2",
         "🇺🇸 United States_hysteria_3",
         "🇺🇸 United States_hysteria2_1",
-        "🇺🇸 United States_hysteria2_2",
         "🇺🇸 United States_hysteria2_3",
         "🇺🇸 United States_vless_3",
         "proxy"
@@ -397,6 +396,7 @@
         "🇫🇷 France_hy2_7",
         "🇫🇷 France_hysteria_0",
         "🇫🇷 France_hysteria2_0",
+        "🇫🇷 France_hysteria2_2",
         "🇨🇦 Canada_vless_03",
         "🇨🇦 Canada_vless_1",
         "proxy"
@@ -422,7 +422,7 @@
         "🇺🇸 United States_hysteria_3",
         "🇫🇷 France_hysteria2_0",
         "🇺🇸 United States_hysteria2_1",
-        "🇺🇸 United States_hysteria2_2",
+        "🇫🇷 France_hysteria2_2",
         "🇺🇸 United States_hysteria2_3",
         "🇨🇦 Canada_vless_03",
         "🇨🇦 Canada_vless_1",
@@ -449,12 +449,12 @@
       "type": "vless",
       "server": "23.227.38.51",
       "server_port": 443,
-      "uuid": "a9202ced-3185-489c-8b28-74e9a00d894d",
+      "uuid": "7b671cd2-233d-406c-88da-1c687727dc52",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
         "insecure": true,
-        "server_name": "dongtaiwang.dtku47.xyz",
+        "server_name": "fr.freeh1.xyz",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
@@ -462,16 +462,16 @@
       },
       "transport": {
         "type": "ws",
-        "path": "/eobjws",
+        "path": "/kfhaws",
         "headers": {
-          "Host": "dongtaiwang.dtku47.xyz"
+          "Host": "fr.freeh1.xyz"
         }
       }
     },
     {
       "tag": "🇨🇦 Canada_vless_02",
       "type": "vless",
-      "server": "dongtaiwang2.com",
+      "server": "23.227.39.51",
       "server_port": 443,
       "uuid": "7b671cd2-233d-406c-88da-1c687727dc52",
       "packet_encoding": "xudp",
@@ -497,12 +497,12 @@
       "type": "vless",
       "server": "172.67.70.101",
       "server_port": 443,
-      "uuid": "a9202ced-3185-489c-8b28-74e9a00d894d",
+      "uuid": "7b671cd2-233d-406c-88da-1c687727dc52",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
         "insecure": true,
-        "server_name": "dongtaiwang.dtku47.xyz",
+        "server_name": "fr.freeh1.xyz",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
@@ -510,9 +510,9 @@
       },
       "transport": {
         "type": "ws",
-        "path": "/eobjws",
+        "path": "/kfhaws",
         "headers": {
-          "Host": "dongtaiwang.dtku47.xyz"
+          "Host": "fr.freeh1.xyz"
         }
       }
     },
@@ -762,10 +762,10 @@
       }
     },
     {
-      "tag": "🇺🇸 United States_hysteria2_2",
+      "tag": "🇫🇷 France_hysteria2_2",
       "type": "hysteria2",
-      "server": "64.110.25.11",
-      "server_port": 33337,
+      "server": "62.210.103.0",
+      "server_port": 52465,
       "password": "dongtaiwang.com",
       "up_mbps": 10,
       "down_mbps": 100,
@@ -800,12 +800,12 @@
       "type": "vless",
       "server": "23.227.39.53",
       "server_port": 443,
-      "uuid": "7b671cd2-233d-406c-88da-1c687727dc52",
+      "uuid": "ffb15cd2-0521-49de-b8aa-fb15d58c8075",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
         "insecure": false,
-        "server_name": "fr.freeh1.xyz",
+        "server_name": "v2ray3.freegradely.xyz",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
@@ -813,9 +813,9 @@
       },
       "transport": {
         "type": "ws",
-        "path": "/kfhaws",
+        "path": "/bqbows",
         "headers": {
-          "Host": "fr.freeh1.xyz"
+          "Host": "v2ray3.freegradely.xyz"
         }
       }
     },
