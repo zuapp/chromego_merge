@@ -822,7 +822,7 @@
     {
       "tag": "🇨🇦 Canada_vless_1",
       "type": "vless",
-      "server": "dongtaiwang2.com",
+      "server": "23.227.38.111",
       "server_port": 443,
       "uuid": "0773256c-d020-436d-afea-6eee7cb6c872",
       "packet_encoding": "xudp",
