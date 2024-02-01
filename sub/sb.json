@@ -106,6 +106,7 @@
         "auto",
         "direct",
         "🇺🇸 United States_vless_0",
+        "🇺🇸 United States_vless_02",
         "🇹🇼 Taiwan_hy_6",
         "🇫🇷 France_hy2_7",
         "🇺🇸 United States_hy2_8",
@@ -366,6 +367,7 @@
       "type": "selector",
       "outbounds": [
         "🇺🇸 United States_vless_0",
+        "🇺🇸 United States_vless_02",
         "🇺🇸 United States_hy2_8",
         "🇺🇸 United States_hysteria_1",
         "🇺🇸 United States_hysteria_2",
@@ -391,6 +393,7 @@
       "type": "urltest",
       "outbounds": [
         "🇺🇸 United States_vless_0",
+        "🇺🇸 United States_vless_02",
         "🇹🇼 Taiwan_hy_6",
         "🇫🇷 France_hy2_7",
         "🇺🇸 United States_hy2_8",
@@ -422,6 +425,29 @@
     },
     {
       "tag": "🇺🇸 United States_vless_0",
+      "type": "vless",
+      "server": "109.104.152.4",
+      "server_port": 16414,
+      "uuid": "80b5b4de-0619-4ac2-b1ff-f2bcc697b641",
+      "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "mensura.cdn-apple.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "QR_5pj5Kj8I3sO6-6ywnM7B1fE2-btdv-IFEas2JHgE",
+          "short_id": "6ba85179e30d4fc2"
+        }
+      }
+    },
+    {
+      "tag": "🇺🇸 United States_vless_02",
       "type": "vless",
       "server": "108.181.5.130",
       "server_port": 17346,
