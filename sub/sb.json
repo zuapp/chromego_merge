@@ -105,6 +105,7 @@
       "outbounds": [
         "auto",
         "direct",
+        "🇺🇸 United States_vless_0",
         "🇹🇼 Taiwan_hy_6",
         "🇫🇷 France_hy2_7",
         "🇺🇸 United States_hy2_8",
@@ -364,6 +365,7 @@
       "tag": "America",
       "type": "selector",
       "outbounds": [
+        "🇺🇸 United States_vless_0",
         "🇺🇸 United States_hy2_8",
         "🇺🇸 United States_hysteria_1",
         "🇺🇸 United States_hysteria_2",
@@ -388,6 +390,7 @@
       "tag": "auto",
       "type": "urltest",
       "outbounds": [
+        "🇺🇸 United States_vless_0",
         "🇹🇼 Taiwan_hy_6",
         "🇫🇷 France_hy2_7",
         "🇺🇸 United States_hy2_8",
@@ -416,6 +419,29 @@
     {
       "type": "block",
       "tag": "block"
+    },
+    {
+      "tag": "🇺🇸 United States_vless_0",
+      "type": "vless",
+      "server": "108.181.5.130",
+      "server_port": 17346,
+      "uuid": "7fc88217-1b18-49b7-bc50-bfe379dc6bf7",
+      "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "d1.awsstatic.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "O5x9mSGdETFh_ql4m_2dPEUNBVwCly9XSi9pu1teLls",
+          "short_id": "6ba85179e30d4fc2"
+        }
+      }
     },
     {
       "tag": "🇹🇼 Taiwan_hy_6",
