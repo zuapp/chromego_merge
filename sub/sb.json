@@ -107,7 +107,9 @@
         "direct",
         "🇫🇷 France_vless_0",
         "🇺🇸 United States_vless_0",
+        "🇺🇸 United States_vless_02",
         "🇫🇷 France_vless_1",
+        "🇺🇸 United States_vless_4",
         "🇹🇼 Taiwan_hy_6",
         "🇫🇷 France_hy2_7",
         "🇺🇸 United States_hy2_8",
@@ -120,6 +122,7 @@
         "🇺🇸 United States_hysteria2_1",
         "🇫🇷 France_hysteria2_2",
         "🇺🇸 United States_hysteria2_3",
+        "🇺🇸 United States_vless_03",
         "🇺🇸 United States_vless_1"
       ]
     },
@@ -369,12 +372,15 @@
       "type": "selector",
       "outbounds": [
         "🇺🇸 United States_vless_0",
+        "🇺🇸 United States_vless_02",
+        "🇺🇸 United States_vless_4",
         "🇺🇸 United States_hy2_8",
         "🇺🇸 United States_hysteria_1",
         "🇺🇸 United States_hysteria_2",
         "🇺🇸 United States_hysteria_3",
         "🇺🇸 United States_hysteria2_1",
         "🇺🇸 United States_hysteria2_3",
+        "🇺🇸 United States_vless_03",
         "🇺🇸 United States_vless_1",
         "proxy"
       ]
@@ -398,7 +404,9 @@
       "outbounds": [
         "🇫🇷 France_vless_0",
         "🇺🇸 United States_vless_0",
+        "🇺🇸 United States_vless_02",
         "🇫🇷 France_vless_1",
+        "🇺🇸 United States_vless_4",
         "🇹🇼 Taiwan_hy_6",
         "🇫🇷 France_hy2_7",
         "🇺🇸 United States_hy2_8",
@@ -411,6 +419,7 @@
         "🇺🇸 United States_hysteria2_1",
         "🇫🇷 France_hysteria2_2",
         "🇺🇸 United States_hysteria2_3",
+        "🇺🇸 United States_vless_03",
         "🇺🇸 United States_vless_1"
       ],
       "url": "http://www.gstatic.com/generate_204",
@@ -476,6 +485,29 @@
       }
     },
     {
+      "tag": "🇺🇸 United States_vless_02",
+      "type": "vless",
+      "server": "108.181.5.130",
+      "server_port": 20221,
+      "uuid": "8eb74635-0857-4673-9965-f6d928b420c9",
+      "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "www.lovelive-anime.jp",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "abc-YDOgV8WkuXRT9bJH-N_E6LaLJ9_7Sfc5OGajaSU",
+          "short_id": "6ba85179e30d4fc2"
+        }
+      }
+    },
+    {
       "tag": "🇫🇷 France_vless_1",
       "type": "vless",
       "server": "51.159.103.141",
@@ -494,6 +526,29 @@
         "reality": {
           "enabled": true,
           "public_key": "A-DHKUq8W8KZKM1gr8xcKCoqKSct73NtdSjUZMhFcEM",
+          "short_id": "6ba85179e30d4fc2"
+        }
+      }
+    },
+    {
+      "tag": "🇺🇸 United States_vless_4",
+      "type": "vless",
+      "server": "108.181.2.156",
+      "server_port": 19695,
+      "uuid": "906d367a-a5d2-467c-b476-a29c79215003",
+      "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "lol.secure.dyn.riotcdn.net",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "TETJrb4V6VlHpITM8jXZjFsh1bUav4iPuSVDMjUBVyo",
           "short_id": "6ba85179e30d4fc2"
         }
       }
@@ -606,14 +661,14 @@
     {
       "tag": "🇺🇸 United States_hysteria_2",
       "type": "hysteria",
-      "server": "167.160.91.115",
-      "server_port": 41189,
+      "server": "108.181.22.239",
+      "server_port": 39967,
       "up_mbps": 11,
       "down_mbps": 55,
-      "auth_str": "bWAwIqINo7XDm1fUlXQGBifVIXoYs1ylgVKqWFKzK1XyDKuwNF",
+      "auth_str": "dongtaiwang.com",
       "tls": {
         "enabled": true,
-        "server_name": "www.amazon.cn",
+        "server_name": "bing.com",
         "alpn": [
           "h3"
         ],
@@ -703,6 +758,29 @@
         "alpn": [
           "h3"
         ]
+      }
+    },
+    {
+      "tag": "🇺🇸 United States_vless_03",
+      "type": "vless",
+      "server": "108.181.22.213",
+      "server_port": 28945,
+      "uuid": "9cc39477-0d85-4419-84d4-fb7fc77668b3",
+      "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "insecure": false,
+        "server_name": "m.media-amazon.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "yKXmLTmXAi-BHBg3JpCz-NWUmVcKlfm7iMmVoq7YQx0",
+          "short_id": "6ba85179e30d4fc2"
+        }
       }
     },
     {
