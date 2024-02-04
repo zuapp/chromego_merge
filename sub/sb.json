@@ -107,7 +107,7 @@
         "direct",
         "🇺🇸 United States_tuic_0",
         "🇫🇷 France_tuic_1",
-        "🇫🇷 France_tuic_2",
+        "🇳🇱 Netherlands_tuic_2",
         "🇫🇷 France_tuic_3",
         "🇫🇷 France_tuic_4",
         "🇫🇷 France_tuic_5",
@@ -389,7 +389,7 @@
       "type": "selector",
       "outbounds": [
         "🇫🇷 France_tuic_1",
-        "🇫🇷 France_tuic_2",
+        "🇳🇱 Netherlands_tuic_2",
         "🇫🇷 France_tuic_3",
         "🇫🇷 France_tuic_4",
         "🇫🇷 France_tuic_5",
@@ -406,7 +406,7 @@
       "outbounds": [
         "🇺🇸 United States_tuic_0",
         "🇫🇷 France_tuic_1",
-        "🇫🇷 France_tuic_2",
+        "🇳🇱 Netherlands_tuic_2",
         "🇫🇷 France_tuic_3",
         "🇫🇷 France_tuic_4",
         "🇫🇷 France_tuic_5",
@@ -478,11 +478,11 @@
       }
     },
     {
-      "tag": "🇫🇷 France_tuic_2",
+      "tag": "🇳🇱 Netherlands_tuic_2",
       "type": "tuic",
-      "server": "62.210.103.14",
-      "server_port": 44556,
-      "uuid": "0d9d053c-81c8-4f26-9b5c-dff313dfdd70",
+      "server": "109.104.153.17",
+      "server_port": 22334,
+      "uuid": "364d2d85-5bfd-463f-a3dd-a08012a2a6ce",
       "password": "dongtaiwang.com",
       "congestion_control": "bbr",
       "udp_relay_mode": "native",
